@@ -37,7 +37,6 @@
       object-fit: contain;
     }
     
-    
     /* Navbar */
     
     .nav-bar {
@@ -47,7 +46,6 @@
       margin-bottom: 25px;
       
     }
-    
     
     .nav-bar-menu {
       display: flex;
@@ -172,6 +170,7 @@
       justify-content: center;
       border: 1px solid rgb(197, 187, 187);
       border-radius: 15px;
+      margin-left: 35px;
     }
     
     .fa-info {
@@ -224,7 +223,6 @@
       margin-left: 20px;
     } 
     
-    
     .filters-icone {
       background-color: #DEEBFF;
       border-radius: 100%;
@@ -245,7 +243,6 @@
       margin: 0 15px 0 15px;
     }
     
-
     /* MAIN */
     
     .container {
@@ -510,24 +507,19 @@
       line-height: 23px;
     }
 
-    
-    
-    /*-----------------------Code pour format de HOVER-----------------*/
+    /*-----------------------HOVER-----------------*/
     
     /* HOVER navbar */ 
     
     .link-navbar:hover {
       border-top: 3px solid #0065FC;
       color: #0065FC;
-
     }
     
     .link-navbar a:hover {
       text-decoration: blue;
       color: #0065FC
-    
     }
-    
     
     /* HOVER Searchbar */
     
@@ -672,6 +664,14 @@
       font-size: 20px;
     }
   
+    }
+
+    @media screen and (min-width : 993px) and (max-width : 1122px) {
+
+    .h3 {
+      font-size: 14px;
+    }
+
     }
   
     /*--------------------------Code format mobile--------------------------*/
@@ -903,4 +903,4 @@
     
     .footer-liste {
       background-color: #F2F2F2;
-    } 
+    }
