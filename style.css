@@ -159,6 +159,7 @@
     .info-icone-container {
       width: 100%;
       display: flex;
+      margin-top: 15px;
     }
     /* lOGO INFO */ 
     
@@ -199,7 +200,8 @@
       margin: 10px;
       height: 44px;
       transition: 1s;
-      font-family: inherit
+      font-family: inherit;
+      cursor: pointer
     }
     
     .filters-section h2 {
@@ -231,6 +233,7 @@
       margin: -2px;
       color: #0065FC;
       align-items: center;
+      cursor: pointer;
     }
   
     .filters-type {
@@ -240,6 +243,7 @@
       margin: 0 15px;
       font-size: 20px;
       margin: 0 15px 0 15px;
+      cursor: pointer;
     }
     
     /* MAIN */
@@ -260,7 +264,6 @@
       background-color: #F2F2F2;
       margin: 0px 30px;
       padding: 0px 10px;
-      cursor: pointer
     }
     
     .section-accommodation {
@@ -281,6 +284,7 @@
       margin: 15px 10px 5px 10px;
       background-color: white;
       box-shadow: 0 0px 15px rgba(0, 0, 0, 0.20);
+      cursor: pointer
     }
     
     .accommodation-header {
@@ -329,6 +333,7 @@
       margin: 20px 0px 10px 0px;
       background-color: white;
       box-shadow: 0 0px 15px rgba(0, 0, 0, 0.20);
+      cursor: pointer;
     }
     
     .popular-description {
